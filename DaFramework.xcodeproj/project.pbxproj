@@ -10,6 +10,7 @@
 		FE0D749725407EFC00A6978B /* DaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE0D748D25407EFC00A6978B /* DaFramework.framework */; };
 		FE0D749C25407EFC00A6978B /* DaFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0D749B25407EFC00A6978B /* DaFrameworkTests.swift */; };
 		FE0D749E25407EFC00A6978B /* DaFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = FE0D749025407EFC00A6978B /* DaFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE0D74AD2540809D00A6978B /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0D74AC2540809D00A6978B /* Package.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +31,7 @@
 		FE0D749B25407EFC00A6978B /* DaFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaFrameworkTests.swift; sourceTree = "<group>"; };
 		FE0D749D25407EFC00A6978B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE0D74A925407F3E00A6978B /* Package */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Package; path = ../Package; sourceTree = "<group>"; };
+		FE0D74AC2540809D00A6978B /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		FE0D748325407EFC00A6978B = {
 			isa = PBXGroup;
 			children = (
+				FE0D74AC2540809D00A6978B /* Package.swift */,
 				FE0D74A925407F3E00A6978B /* Package */,
 				FE0D748F25407EFC00A6978B /* DaFramework */,
 				FE0D749A25407EFC00A6978B /* DaFrameworkTests */,
@@ -196,6 +199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE0D74AD2540809D00A6978B /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,6 +395,7 @@
 		FE0D74A525407EFC00A6978B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S43V4RQJ55;
 				INFOPLIST_FILE = DaFrameworkTests/Info.plist;
@@ -409,6 +414,7 @@
 		FE0D74A625407EFC00A6978B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S43V4RQJ55;
 				INFOPLIST_FILE = DaFrameworkTests/Info.plist;
