@@ -29,6 +29,7 @@
 		FE0D749625407EFC00A6978B /* DaFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DaFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE0D749B25407EFC00A6978B /* DaFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaFrameworkTests.swift; sourceTree = "<group>"; };
 		FE0D749D25407EFC00A6978B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE0D74A925407F3E00A6978B /* Package */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Package; path = ../Package; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +54,7 @@
 		FE0D748325407EFC00A6978B = {
 			isa = PBXGroup;
 			children = (
+				FE0D74A925407F3E00A6978B /* Package */,
 				FE0D748F25407EFC00A6978B /* DaFramework */,
 				FE0D749A25407EFC00A6978B /* DaFrameworkTests */,
 				FE0D748E25407EFC00A6978B /* Products */,
